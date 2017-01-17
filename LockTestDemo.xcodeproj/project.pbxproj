@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76854CF1E262E5200EF39DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76854CE1E262E5200EF39DC /* main.m */; };
+		F76854D21E262E5200EF39DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76854D11E262E5200EF39DC /* AppDelegate.m */; };
+		F76854D51E262E5200EF39DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76854D41E262E5200EF39DC /* ViewController.m */; };
+		F76854D81E262E5200EF39DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76854D61E262E5200EF39DC /* Main.storyboard */; };
+		F76854DA1E262E5200EF39DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76854D91E262E5200EF39DC /* Assets.xcassets */; };
+		F76854DD1E262E5200EF39DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76854DB1E262E5200EF39DC /* LaunchScreen.storyboard */; };
+		F76854E81E262E5200EF39DC /* LockTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76854E71E262E5200EF39DC /* LockTestDemoTests.m */; };
+		F76854F31E262E5200EF39DC /* LockTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76854F21E262E5200EF39DC /* LockTestDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F76854E41E262E5200EF39DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76854C21E262E5200EF39DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76854C91E262E5200EF39DC;
+			remoteInfo = LockTestDemo;
+		};
+		F76854EF1E262E5200EF39DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76854C21E262E5200EF39DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76854C91E262E5200EF39DC;
+			remoteInfo = LockTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76854CA1E262E5200EF39DC /* LockTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76854CE1E262E5200EF39DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76854D01E262E5200EF39DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F76854D11E262E5200EF39DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F76854D31E262E5200EF39DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F76854D41E262E5200EF39DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F76854D71E262E5200EF39DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76854D91E262E5200EF39DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76854DC1E262E5200EF39DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F76854DE1E262E5200EF39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76854E31E262E5200EF39DC /* LockTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76854E71E262E5200EF39DC /* LockTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTestDemoTests.m; sourceTree = "<group>"; };
+		F76854E91E262E5200EF39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76854EE1E262E5200EF39DC /* LockTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76854F21E262E5200EF39DC /* LockTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTestDemoUITests.m; sourceTree = "<group>"; };
+		F76854F41E262E5200EF39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76854C71E262E5200EF39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76854E01E262E5200EF39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76854EB1E262E5200EF39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76854C11E262E5200EF39DC = {
+			isa = PBXGroup;
+			children = (
+				F76854CC1E262E5200EF39DC /* LockTestDemo */,
+				F76854E61E262E5200EF39DC /* LockTestDemoTests */,
+				F76854F11E262E5200EF39DC /* LockTestDemoUITests */,
+				F76854CB1E262E5200EF39DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76854CB1E262E5200EF39DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76854CA1E262E5200EF39DC /* LockTestDemo.app */,
+				F76854E31E262E5200EF39DC /* LockTestDemoTests.xctest */,
+				F76854EE1E262E5200EF39DC /* LockTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76854CC1E262E5200EF39DC /* LockTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F76854D01E262E5200EF39DC /* AppDelegate.h */,
+				F76854D11E262E5200EF39DC /* AppDelegate.m */,
+				F76854D31E262E5200EF39DC /* ViewController.h */,
+				F76854D41E262E5200EF39DC /* ViewController.m */,
+				F76854D61E262E5200EF39DC /* Main.storyboard */,
+				F76854D91E262E5200EF39DC /* Assets.xcassets */,
+				F76854DB1E262E5200EF39DC /* LaunchScreen.storyboard */,
+				F76854DE1E262E5200EF39DC /* Info.plist */,
+				F76854CD1E262E5200EF39DC /* Supporting Files */,
+			);
+			path = LockTestDemo;
+			sourceTree = "<group>";
+		};
+		F76854CD1E262E5200EF39DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76854CE1E262E5200EF39DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F76854E61E262E5200EF39DC /* LockTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76854E71E262E5200EF39DC /* LockTestDemoTests.m */,
+				F76854E91E262E5200EF39DC /* Info.plist */,
+			);
+			path = LockTestDemoTests;
+			sourceTree = "<group>";
+		};
+		F76854F11E262E5200EF39DC /* LockTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F76854F21E262E5200EF39DC /* LockTestDemoUITests.m */,
+				F76854F41E262E5200EF39DC /* Info.plist */,
+			);
+			path = LockTestDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76854C91E262E5200EF39DC /* LockTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76854F71E262E5200EF39DC /* Build configuration list for PBXNativeTarget "LockTestDemo" */;
+			buildPhases = (
+				F76854C61E262E5200EF39DC /* Sources */,
+				F76854C71E262E5200EF39DC /* Frameworks */,
+				F76854C81E262E5200EF39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockTestDemo;
+			productName = LockTestDemo;
+			productReference = F76854CA1E262E5200EF39DC /* LockTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76854E21E262E5200EF39DC /* LockTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76854FA1E262E5200EF39DC /* Build configuration list for PBXNativeTarget "LockTestDemoTests" */;
+			buildPhases = (
+				F76854DF1E262E5200EF39DC /* Sources */,
+				F76854E01E262E5200EF39DC /* Frameworks */,
+				F76854E11E262E5200EF39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76854E51E262E5200EF39DC /* PBXTargetDependency */,
+			);
+			name = LockTestDemoTests;
+			productName = LockTestDemoTests;
+			productReference = F76854E31E262E5200EF39DC /* LockTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F76854ED1E262E5200EF39DC /* LockTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76854FD1E262E5200EF39DC /* Build configuration list for PBXNativeTarget "LockTestDemoUITests" */;
+			buildPhases = (
+				F76854EA1E262E5200EF39DC /* Sources */,
+				F76854EB1E262E5200EF39DC /* Frameworks */,
+				F76854EC1E262E5200EF39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76854F01E262E5200EF39DC /* PBXTargetDependency */,
+			);
+			name = LockTestDemoUITests;
+			productName = LockTestDemoUITests;
+			productReference = F76854EE1E262E5200EF39DC /* LockTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76854C21E262E5200EF39DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = siemens;
+				TargetAttributes = {
+					F76854C91E262E5200EF39DC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F76854E21E262E5200EF39DC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76854C91E262E5200EF39DC;
+					};
+					F76854ED1E262E5200EF39DC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76854C91E262E5200EF39DC;
+					};
+				};
+			};
+			buildConfigurationList = F76854C51E262E5200EF39DC /* Build configuration list for PBXProject "LockTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76854C11E262E5200EF39DC;
+			productRefGroup = F76854CB1E262E5200EF39DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76854C91E262E5200EF39DC /* LockTestDemo */,
+				F76854E21E262E5200EF39DC /* LockTestDemoTests */,
+				F76854ED1E262E5200EF39DC /* LockTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76854C81E262E5200EF39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76854DD1E262E5200EF39DC /* LaunchScreen.storyboard in Resources */,
+				F76854DA1E262E5200EF39DC /* Assets.xcassets in Resources */,
+				F76854D81E262E5200EF39DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76854E11E262E5200EF39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76854EC1E262E5200EF39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76854C61E262E5200EF39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76854D51E262E5200EF39DC /* ViewController.m in Sources */,
+				F76854D21E262E5200EF39DC /* AppDelegate.m in Sources */,
+				F76854CF1E262E5200EF39DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76854DF1E262E5200EF39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76854E81E262E5200EF39DC /* LockTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76854EA1E262E5200EF39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76854F31E262E5200EF39DC /* LockTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76854E51E262E5200EF39DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76854C91E262E5200EF39DC /* LockTestDemo */;
+			targetProxy = F76854E41E262E5200EF39DC /* PBXContainerItemProxy */;
+		};
+		F76854F01E262E5200EF39DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76854C91E262E5200EF39DC /* LockTestDemo */;
+			targetProxy = F76854EF1E262E5200EF39DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F76854D61E262E5200EF39DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76854D71E262E5200EF39DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76854DB1E262E5200EF39DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76854DC1E262E5200EF39DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76854F51E262E5200EF39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F76854F61E262E5200EF39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76854F81E262E5200EF39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LockTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siemens.com.LockTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F76854F91E262E5200EF39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LockTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siemens.com.LockTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F76854FB1E262E5200EF39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LockTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siemens.com.LockTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockTestDemo.app/LockTestDemo";
+			};
+			name = Debug;
+		};
+		F76854FC1E262E5200EF39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LockTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siemens.com.LockTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockTestDemo.app/LockTestDemo";
+			};
+			name = Release;
+		};
+		F76854FE1E262E5200EF39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LockTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siemens.com.LockTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LockTestDemo;
+			};
+			name = Debug;
+		};
+		F76854FF1E262E5200EF39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LockTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siemens.com.LockTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LockTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76854C51E262E5200EF39DC /* Build configuration list for PBXProject "LockTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76854F51E262E5200EF39DC /* Debug */,
+				F76854F61E262E5200EF39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76854F71E262E5200EF39DC /* Build configuration list for PBXNativeTarget "LockTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76854F81E262E5200EF39DC /* Debug */,
+				F76854F91E262E5200EF39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F76854FA1E262E5200EF39DC /* Build configuration list for PBXNativeTarget "LockTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76854FB1E262E5200EF39DC /* Debug */,
+				F76854FC1E262E5200EF39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F76854FD1E262E5200EF39DC /* Build configuration list for PBXNativeTarget "LockTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76854FE1E262E5200EF39DC /* Debug */,
+				F76854FF1E262E5200EF39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76854C21E262E5200EF39DC /* Project object */;
+}
